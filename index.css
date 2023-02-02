@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+.jumbotron{
+    background-color: rgb(238, 128, 11);
+}
+
+body{
+    background-color: black;
+}
+.panel-body{
+    background-color: black;
+}
+.number{
+    background-color: rgb(54, 53, 53);
+    border: 1px solid rgb(54, 53, 53);
+}
+.operator, .equal{
+    background-color: rgb(238, 128, 11);
+    border: 1px solid rgb(238, 128, 11);
+}
+.number:hover{
+    background-color: rgb(115, 111, 111);
+}
+.operator:hover{
+  background-color: rgb(228, 183, 134);  
+}
+.equal:hover{
+    background-color: rgb(228, 183, 134);  
+  }
+.equal:active{
+    background-color: rgb(228, 183, 134);
+}
